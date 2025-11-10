@@ -8,3 +8,25 @@ myData/
 __pycache__/
 anvio-7.1.tar.gz
 data/anvio-7.tar.gz
+# archives / huge files
+anvio-7.1.tar.gz
+data/anvio-7.tar.gz
+Alfasta/anvio-7.tar.gz
+# heavy/generated
+*.db
+*.fa
+*.fasta
+*.fq
+*.fastq
+*.bam
+*.sam
+*.bai
+*.gz
+*.zip
+*.tar
+*.tar.gz
+results/
+myData/
+logs/
+__pycache__/
+.DS_Store
