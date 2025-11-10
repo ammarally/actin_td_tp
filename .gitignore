@@ -1,0 +1,8 @@
+Alfasta/anvio-7.tar.gz
+anvio-7.1.tar.gz
+*.db
+*.fa
+*.log
+results/
+myData/
+__pycache__/
