@@ -1,0 +1,2 @@
+gene	accession	hmmsource
+actin_like	ERDA_actin	vio

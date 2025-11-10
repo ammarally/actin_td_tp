@@ -1,0 +1,161 @@
+IQ-TREE multicore version 1.6.12 for Mac OS X 64-bit built Aug 15 2019
+Developed by Bui Quang Minh, Nguyen Lam Tung, Olga Chernomor,
+Heiko Schmidt, Dominik Schrempf, Michael Woodhams.
+
+Host:    Alis-MacBook-Air.local (SSE4.2, 16 GB RAM)
+Command: iqtree -s results/actin_plus_refs.trimal.phy -m LG+R7 -alrt 1000 -bb 1000 -nt AUTO
+Seed:    244836 (Using SPRNG - Scalable Parallel Random Number Generator)
+Time:    Sat Nov  8 17:57:13 2025
+Kernel:  SSE2 - auto-detect threads (10 CPU cores detected)
+
+Reading alignment file results/actin_plus_refs.trimal.phy ... Phylip format detected
+Alignment most likely contains protein sequences
+Alignment has 20 sequences with 368 columns, 353 distinct patterns
+226 parsimony-informative, 132 singleton sites, 10 constant sites
+                                                   Gap/Ambiguity  Composition  p-value
+   1  TARA_PSW_NCLDV_Bin_158_1_c_000000000032_11           0.54%    passed     99.95%
+   2  Yasminevirus_GU_2018_000000000001_1182               0.00%    passed     93.27%
+   3  Moniruzzaman_MM15_ERX556043_42_dc_000000000003_9     0.00%    passed     99.33%
+   4  Schultz_GVMAG_M_3300025767_21_000000000012_6         0.00%    passed     99.45%
+   5  Moniruzzaman_MM01_SRX802077_122_dc_000000000014_2    0.00%    passed    100.00%
+   6  Schultz_GVMAG_M_3300025880_30_000000000006_2         0.00%    passed    100.00%
+   7  TARA_MED_NCLDV_Bin_121_14_c_000000000043_5           0.00%    passed    100.00%
+   8  Schultz_GVMAG_S_3300010368_67_000000000002_5         0.00%    passed    100.00%
+   9  Schultz_GVMAG_M_3300024261_25_000000000007_10        0.00%    passed     99.56%
+  10  Schultz_GVMAG_S_ERX556045_64_000000000021_1          0.00%    passed     99.98%
+  11  Schultz_GVMAG_M_3300023184_120_000000000001_70       0.00%    passed     98.01%
+  12  Schultz_GVMAG_M_3300027707_43_000000000013_6         0.00%    passed     99.44%
+  13  Schultz_GVMAG_S_3300010368_72_000000000027_5         0.00%    passed     98.65%
+  14  Schultz_GVMAG_M_3300020187_94_000000000001_30        0.27%    passed     99.86%
+  15  Schultz_GVMAG_M_3300009441_23_000000000015_4         0.27%    passed     99.99%
+  16  Schultz_GVMAG_M_3300020185_80_000000000001_15        0.00%    passed     99.18%
+  17  Schultz_GVMAG_M_3300021375_17_000000000003_61        0.00%    passed     97.84%
+  18  Schultz_GVMAG_M_3300003404_4_000000000011_3          0.00%    passed     91.83%
+  19  Hokovirus_KY684103_000000000001_211                 25.54%    failed      0.00%
+  20  Schultz_GVMAG_M_3300010334_45_000000000018_18        2.72%    failed      0.00%
+****  TOTAL                                                1.47%  2 sequences failed composition chi2 test (p-value<5%; df=19)
+NOTE: Schultz_GVMAG_M_3300025880_30_000000000006_2 is identical to Moniruzzaman_MM01_SRX802077_122_dc_000000000014_2 but kept for subsequent analysis
+
+Create initial parsimony tree by phylogenetic likelihood library (PLL)... 0.003 seconds
+Generating 1000 samples for ultrafast bootstrap (seed: 244836)...
+
+NOTE: 9 MB RAM (0 GB) is required!
+Measuring multi-threading efficiency up to 10 CPU cores
+Increase to 10 rounds for branch lengths
+71 trees examined
+Threads: 1 / Time: 10.020 sec / Speedup: 1.000 / Efficiency: 100% / LogL: -8375
+Threads: 2 / Time: 5.244 sec / Speedup: 1.911 / Efficiency: 96% / LogL: -8375
+Threads: 3 / Time: 3.891 sec / Speedup: 2.575 / Efficiency: 86% / LogL: -8375
+Threads: 4 / Time: 3.335 sec / Speedup: 3.005 / Efficiency: 75% / LogL: -8375
+Threads: 5 / Time: 5.321 sec / Speedup: 1.883 / Efficiency: 38% / LogL: -8375
+BEST NUMBER OF THREADS: 4
+
+Estimate model parameters (epsilon = 0.100)
+1. Initial log-likelihood: -7416.370
+2. Current log-likelihood: -7273.378
+3. Current log-likelihood: -7271.710
+4. Current log-likelihood: -7271.472
+5. Current log-likelihood: -7271.364
+Optimal log-likelihood: -7271.255
+Site proportion and rates:  (0.148,0.274) (0.236,0.291) (0.152,0.499) (0.108,0.725) (0.112,1.337) (0.136,1.681) (0.109,3.296)
+Parameters optimization took 5 rounds (0.538 sec)
+Computing ML distances based on estimated model parameters... 0.133 sec
+Computing BIONJ tree...
+0.001 seconds
+Log-likelihood of BIONJ tree: -7272.123
+--------------------------------------------------------------------
+|             INITIALIZING CANDIDATE TREE SET                      |
+--------------------------------------------------------------------
+Generating 98 parsimony trees... 0.127 second
+Computing log-likelihood of 98 initial trees ... 1.082 seconds
+Current best score: -7271.255
+
+Do NNI search on 20 best initial trees
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 1: -7270.171
+UPDATE BEST LOG-LIKELIHOOD: -7270.171
+Iteration 10 / LogL: -7270.171 / Time: 0h:0m:30s
+UPDATE BEST LOG-LIKELIHOOD: -7270.167
+Iteration 20 / LogL: -7270.600 / Time: 0h:0m:31s
+Finish initializing candidate tree set (3)
+Current best tree score: -7270.167 / CPU time: 2.812
+Number of iterations: 20
+--------------------------------------------------------------------
+|               OPTIMIZING CANDIDATE TREE SET                      |
+--------------------------------------------------------------------
+Iteration 30 / LogL: -7270.194 / Time: 0h:0m:32s (0h:1m:19s left)
+Iteration 40 / LogL: -7275.355 / Time: 0h:0m:33s (0h:0m:52s left)
+Iteration 50 / LogL: -7275.353 / Time: 0h:0m:34s (0h:0m:36s left)
+Log-likelihood cutoff on original alignment: -7302.065
+Iteration 60 / LogL: -7275.458 / Time: 0h:0m:36s (0h:0m:25s left)
+Iteration 70 / LogL: -7270.244 / Time: 0h:0m:37s (0h:0m:16s left)
+Iteration 80 / LogL: -7275.353 / Time: 0h:0m:38s (0h:0m:10s left)
+Iteration 90 / LogL: -7273.817 / Time: 0h:0m:39s (0h:0m:4s left)
+Iteration 100 / LogL: -7274.571 / Time: 0h:0m:41s (0h:0m:0s left)
+Log-likelihood cutoff on original alignment: -7302.367
+NOTE: Bootstrap correlation coefficient of split occurrence frequencies: 0.994
+TREE SEARCH COMPLETED AFTER 102 ITERATIONS / Time: 0h:0m:41s
+
+--------------------------------------------------------------------
+|                    FINALIZING TREE SEARCH                        |
+--------------------------------------------------------------------
+Performs final model parameters optimization
+Estimate model parameters (epsilon = 0.010)
+1. Initial log-likelihood: -7270.167
+2. Current log-likelihood: -7270.102
+3. Current log-likelihood: -7270.031
+4. Current log-likelihood: -7269.969
+5. Current log-likelihood: -7269.914
+6. Current log-likelihood: -7269.866
+7. Current log-likelihood: -7269.826
+8. Current log-likelihood: -7269.800
+9. Current log-likelihood: -7269.770
+10. Current log-likelihood: -7269.751
+11. Current log-likelihood: -7269.733
+12. Current log-likelihood: -7269.717
+13. Current log-likelihood: -7269.703
+14. Current log-likelihood: -7269.690
+15. Current log-likelihood: -7269.677
+16. Current log-likelihood: -7269.665
+17. Current log-likelihood: -7269.654
+18. Current log-likelihood: -7269.643
+19. Current log-likelihood: -7269.632
+20. Current log-likelihood: -7269.621
+21. Current log-likelihood: -7269.611
+22. Current log-likelihood: -7269.601
+23. Current log-likelihood: -7269.591
+Optimal log-likelihood: -7269.579
+Site proportion and rates:  (0.217,0.312) (0.304,0.331) (0.081,0.682) (0.085,1.053) (0.106,1.564) (0.128,1.770) (0.078,3.750)
+Parameters optimization took 23 rounds (1.970 sec)
+BEST SCORE FOUND : -7269.579
+
+Testing tree branches by SH-like aLRT with 1000 replicates...
+0.039 sec.
+Creating bootstrap support values...
+Split supports printed to NEXUS file results/actin_plus_refs.trimal.phy.splits.nex
+Total tree length: 11.378
+
+Total number of iterations: 102
+CPU time used for tree search: 51.191 sec (0h:0m:51s)
+Wall-clock time used for tree search: 12.833 sec (0h:0m:12s)
+Total CPU time used: 133.996 sec (0h:2m:13s)
+Total wall-clock time used: 43.298 sec (0h:0m:43s)
+
+Computing bootstrap consensus tree...
+Reading input file results/actin_plus_refs.trimal.phy.splits.nex...
+20 taxa and 147 splits.
+Consensus tree written to results/actin_plus_refs.trimal.phy.contree
+Reading input trees file results/actin_plus_refs.trimal.phy.contree
+Log-likelihood of consensus tree: -7269.579
+
+Analysis results written to: 
+  IQ-TREE report:                results/actin_plus_refs.trimal.phy.iqtree
+  Maximum-likelihood tree:       results/actin_plus_refs.trimal.phy.treefile
+  Likelihood distances:          results/actin_plus_refs.trimal.phy.mldist
+
+Ultrafast bootstrap approximation results written to:
+  Split support values:          results/actin_plus_refs.trimal.phy.splits.nex
+  Consensus tree:                results/actin_plus_refs.trimal.phy.contree
+  Screen log file:               results/actin_plus_refs.trimal.phy.log
+
+Date and Time: Sat Nov  8 17:57:56 2025

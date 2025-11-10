@@ -1,0 +1,14 @@
+#                                                                                     --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name                                 accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ----------                       -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+actin_like           -          TARA_MED_NCLDV_Bin_121_14_c_000000000043_5 -           1.4e-168  546.5   0.0  1.6e-168  546.4   0.0   1.0   1   0   0   1   1   1   1 -
+#
+# Program:         hmmscan
+# Version:         3.4 (Aug 2023)
+# Pipeline mode:   SCAN
+# Query file:      results/aa/TARA_MED_NCLDV_Bin_121_14_c.norm.fa
+# Target file:     hmms/PersoHMM/genes.hmm
+# Option settings: hmmscan --tblout results/hmmer/TARA_MED_NCLDV_Bin_121_14_c.tbl -E 1e-12 --cpu 1 hmms/PersoHMM/genes.hmm results/aa/TARA_MED_NCLDV_Bin_121_14_c.norm.fa 
+# Current dir:     /Users/aliammar/actin_td_tp
+# Date:            Sat Nov  8 20:47:41 2025
+# [ok]

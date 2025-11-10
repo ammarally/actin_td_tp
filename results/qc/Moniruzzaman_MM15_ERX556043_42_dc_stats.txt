@@ -1,0 +1,31 @@
+contigs_db	Moniruzzaman_MM15_ERX556043_42_dc_contigs
+Total Length	708427
+Num Contigs	32
+Num Contigs > 100 kb	0
+Num Contigs > 50 kb	1
+Num Contigs > 20 kb	13
+Num Contigs > 10 kb	32
+Num Contigs > 5 kb	32
+Num Contigs > 2.5 kb	32
+Longest Contig	56014
+Shortest Contig	11657
+Num Genes (prodigal)	720
+L50	11
+L75	20
+L90	27
+N50	23870
+N75	16666
+N90	12433
+Archaea_76	6
+Bacteria_71	4
+PersoHMM	1
+Protista_83	2
+Ribosomal_RNA_12S	0
+Ribosomal_RNA_16S	0
+Ribosomal_RNA_18S	0
+Ribosomal_RNA_23S	0
+Ribosomal_RNA_28S	0
+Ribosomal_RNA_5S	0
+archaea (Archaea_76)	0
+bacteria (Bacteria_71)	0
+eukarya (Protista_83)	0

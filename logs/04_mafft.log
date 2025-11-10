@@ -1,0 +1,52 @@
+OS = darwin
+The number of physical cores =  10
+outputhat23=16
+treein = 0
+compacttree = 0
+stacksize: 8176 kb
+rescale = 1
+All-to-all alignment.
+    0 / 20 (by thread   1)    10 / 20 (by thread   1) tbfast-pair (aa) Version 7.526
+alg=L, model=BLOSUM62, 2.00, -0.10, +0.10, noshift, amax=0.0
+10 thread(s)
+
+outputhat23=16
+Loading 'hat3.seed' ... 
+done.
+Writing hat3 for iterative refinement
+rescale = 1
+Gap Penalty = -1.53, +0.00, +0.00
+tbutree = 1, compacttree = 0
+Constructing a UPGMA tree ... 
+    0 / 20   10 / 20
+done.
+
+Progressive alignment ... 
+STEP     1 /19 (thread    0) STEP     2 /19 (thread    1) STEP     3 /19 (thread    2) STEP     4 /19 (thread    3) STEP     5 /19 (thread    4) STEP     6 /19 (thread    5) STEP     7 /19 (thread    0) STEP     8 /19 (thread    8) STEP     9 /19 (thread    6) STEP    10 /19 (thread    7) STEP    11 /19 (thread    9) STEP    12 /19 (thread    1) STEP    13 /19 (thread    2) STEP    14 /19 (thread    3) STEP    15 /19 (thread    4) STEP    16 /19 (thread    5) STEP    17 /19 (thread    0) STEP    18 /19 (thread    8) STEP    19 /19 (thread    6) 
+done.
+tbfast (aa) Version 7.526
+alg=A, model=BLOSUM62, 1.53, -0.00, -0.00, noshift, amax=0.0
+10 thread(s)
+
+minimumweight = 0.000010
+autosubalignment = 0.000000
+nthread = 8
+randomseed = 0
+blosum 62 / kimura 200
+poffset = 0
+niter = 16
+sueff_global = 0.100000
+nadd = 16
+Warning: No sequence found.
+
+Strategy:
+ L-INS-i (Probably most accurate, very slow)
+ Iterative refinement method (<16) with LOCAL pairwise alignment information
+
+If unsure which option to use, try 'mafft --auto input > output'.
+For more information, see 'mafft --help', 'mafft --man' and the mafft page.
+
+The default gap scoring scheme has been changed in version 7.110 (2013 Oct).
+It tends to insert more gaps into gap-rich regions than previous versions.
+To disable this change, add the --leavegappyregion option.
+

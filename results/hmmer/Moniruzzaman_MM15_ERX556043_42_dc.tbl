@@ -1,0 +1,14 @@
+#                                                                                           --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name                                       accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ----------                             -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+actin_like           -          Moniruzzaman_MM15_ERX556043_42_dc_000000000003_9 -           2.2e-162  526.1   0.0  2.4e-162  526.0   0.0   1.0   1   0   0   1   1   1   1 -
+#
+# Program:         hmmscan
+# Version:         3.4 (Aug 2023)
+# Pipeline mode:   SCAN
+# Query file:      results/aa/Moniruzzaman_MM15_ERX556043_42_dc.norm.fa
+# Target file:     hmms/PersoHMM/genes.hmm
+# Option settings: hmmscan --tblout results/hmmer/Moniruzzaman_MM15_ERX556043_42_dc.tbl -E 1e-12 --cpu 1 hmms/PersoHMM/genes.hmm results/aa/Moniruzzaman_MM15_ERX556043_42_dc.norm.fa 
+# Current dir:     /Users/aliammar/actin_td_tp
+# Date:            Sat Nov  8 20:47:40 2025
+# [ok]

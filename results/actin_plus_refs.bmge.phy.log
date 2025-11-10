@@ -1,0 +1,11 @@
+IQ-TREE multicore version 1.6.12 for Mac OS X 64-bit built Aug 15 2019
+Developed by Bui Quang Minh, Nguyen Lam Tung, Olga Chernomor,
+Heiko Schmidt, Dominik Schrempf, Michael Woodhams.
+
+Host:    Alis-MacBook-Air.local (SSE4.2, 16 GB RAM)
+Command: iqtree -s results/actin_plus_refs.bmge.phy -m LG+R7 -alrt 1000 -bb 1000 -nt AUTO
+Seed:    738421 (Using SPRNG - Scalable Parallel Random Number Generator)
+Time:    Sat Nov  8 17:39:20 2025
+Kernel:  SSE2 - auto-detect threads (10 CPU cores detected)
+
+Reading alignment file results/actin_plus_refs.bmge.phy ... ERROR: File not found results/actin_plus_refs.bmge.phy

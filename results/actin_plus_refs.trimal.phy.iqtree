@@ -1,0 +1,174 @@
+IQ-TREE 1.6.12 built Aug 15 2019
+
+Input file name: results/actin_plus_refs.trimal.phy
+Type of analysis: tree reconstruction + ultrafast bootstrap (1000 replicates)
+Random seed number: 244836
+
+REFERENCES
+----------
+
+To cite IQ-TREE please use:
+
+Lam-Tung Nguyen, Heiko A. Schmidt, Arndt von Haeseler, and Bui Quang Minh
+(2015) IQ-TREE: A fast and effective stochastic algorithm for estimating
+maximum likelihood phylogenies. Mol Biol Evol, 32:268-274.
+https://doi.org/10.1093/molbev/msu300
+
+Since you used ultrafast bootstrap (UFBoot) please also cite: 
+
+Diep Thi Hoang, Olga Chernomor, Arndt von Haeseler, Bui Quang Minh,
+and Le Sy Vinh (2017) UFBoot2: Improving the ultrafast bootstrap
+approximation. Mol Biol Evol, in press.
+https://doi.org/10.1093/molbev/msx281
+
+SEQUENCE ALIGNMENT
+------------------
+
+Input data: 20 sequences with 368 amino-acid sites
+Number of constant sites: 10 (= 2.71739% of all sites)
+Number of invariant (constant or ambiguous constant) sites: 10 (= 2.71739% of all sites)
+Number of parsimony informative sites: 226
+Number of distinct site patterns: 353
+
+SUBSTITUTION PROCESS
+--------------------
+
+Model of substitution: LG+R7
+
+State frequencies: (model)
+
+Model of rate heterogeneity: FreeRate with 7 categories
+Site proportion and rates:  (0.2166,0.3123) (0.3039,0.3310) (0.0815,0.6818) (0.0852,1.0533) (0.1063,1.5644) (0.1285,1.7700) (0.0781,3.7504)
+
+ Category  Relative_rate  Proportion
+  1         0.3123         0.2166
+  2         0.3310         0.3039
+  3         0.6818         0.0815
+  4         1.0533         0.0852
+  5         1.5644         0.1063
+  6         1.7700         0.1285
+  7         3.7504         0.0781
+
+MAXIMUM LIKELIHOOD TREE
+-----------------------
+
+Log-likelihood of the tree: -7269.5793 (s.e. 206.4675)
+Unconstrained log-likelihood (without tree): -2152.3336
+Number of free parameters (#branches + #model parameters): 49
+Akaike information criterion (AIC) score: 14637.1585
+Corrected Akaike information criterion (AICc) score: 14652.5673
+Bayesian information criterion (BIC) score: 14828.6546
+
+Total tree length (sum of branch lengths): 11.3785
+Sum of internal branch lengths: 2.6182 (23.0101% of tree length)
+
+NOTE: Tree is UNROOTED although outgroup taxon 'TARA_PSW_NCLDV_Bin_158_1_c_000000000032_11' is drawn at root
+Numbers in parentheses are SH-aLRT support (%) / ultrafast bootstrap support (%)
+
++--TARA_PSW_NCLDV_Bin_158_1_c_000000000032_11
+|
++--Yasminevirus_GU_2018_000000000001_1182
+|
+|     +--Moniruzzaman_MM15_ERX556043_42_dc_000000000003_9
+|  +--| (48.2/40)
+|  |  |           +---------------------Hokovirus_KY684103_000000000001_211
+|  |  +-----------| (96.6/82)
+|  |              +-----------------------------------------Schultz_GVMAG_M_3300010334_45_000000000018_18
++--| (100/82)
+   |        +--Schultz_GVMAG_M_3300025767_21_000000000012_6
+   |     +--| (98.7/86)
+   |     |  |        +**Moniruzzaman_MM01_SRX802077_122_dc_000000000014_2
+   |     |  |     +--| (76.6/83)
+   |     |  |     |  +**Schultz_GVMAG_M_3300025880_30_000000000006_2
+   |     |  |  +--| (97.2/100)
+   |     |  |  |  +**TARA_MED_NCLDV_Bin_121_14_c_000000000043_5
+   |     |  +--| (98.8/94)
+   |     |     |  +--Schultz_GVMAG_S_3300010368_67_000000000002_5
+   |     |     +--| (87.4/83)
+   |     |        |  +--Schultz_GVMAG_M_3300024261_25_000000000007_10
+   |     |        +--| (90.6/88)
+   |     |           +--Schultz_GVMAG_S_ERX556045_64_000000000021_1
+   |  +--| (58.4/52)
+   |  |  |  +--Schultz_GVMAG_M_3300020185_80_000000000001_15
+   |  |  +--| (91.9/91)
+   |  |     |  +--Schultz_GVMAG_M_3300021375_17_000000000003_61
+   |  |     +--| (90.8/87)
+   |  |        +--Schultz_GVMAG_M_3300003404_4_000000000011_3
+   +--| (96/60)
+      |     +--Schultz_GVMAG_M_3300023184_120_000000000001_70
+      |  +--| (100/100)
+      |  |  +--Schultz_GVMAG_M_3300027707_43_000000000013_6
+      +--| (95.8/82)
+         |  +--Schultz_GVMAG_S_3300010368_72_000000000027_5
+         +--| (99.1/84)
+            |  +--Schultz_GVMAG_M_3300020187_94_000000000001_30
+            +--| (99.7/99)
+               +--Schultz_GVMAG_M_3300009441_23_000000000015_4
+
+Tree in newick format:
+
+(TARA_PSW_NCLDV_Bin_158_1_c_000000000032_11:0.4024445384,Yasminevirus_GU_2018_000000000001_1182:0.2318442653,((Moniruzzaman_MM15_ERX556043_42_dc_000000000003_9:0.3064470240,(Hokovirus_KY684103_000000000001_211:2.2363120113,Schultz_GVMAG_M_3300010334_45_000000000018_18:4.3324646361)96.6/82:1.2620065780)48.2/40:0.1228991890,(((Schultz_GVMAG_M_3300025767_21_000000000012_6:0.1978071137,(((Moniruzzaman_MM01_SRX802077_122_dc_000000000014_2:0.0000020725,Schultz_GVMAG_M_3300025880_30_000000000006_2:0.0000020725)76.6/83:0.0033565889,TARA_MED_NCLDV_Bin_121_14_c_000000000043_5:0.0020042538)97.2/100:0.0448476031,(Schultz_GVMAG_S_3300010368_67_000000000002_5:0.0437541759,(Schultz_GVMAG_M_3300024261_25_000000000007_10:0.0084570079,Schultz_GVMAG_S_ERX556045_64_000000000021_1:0.0237415903)90.6/88:0.0186578408)87.4/83:0.0225045525)98.8/94:0.1010027769)98.7/86:0.1108350328,(Schultz_GVMAG_M_3300020185_80_000000000001_15:0.1890077767,(Schultz_GVMAG_M_3300021375_17_000000000003_61:0.2351050255,Schultz_GVMAG_M_3300003404_4_000000000011_3:0.1330370438)90.8/87:0.0603968247)91.9/91:0.0474289945)58.4/52:0.0208176010,((Schultz_GVMAG_M_3300023184_120_000000000001_70:0.0618267997,Schultz_GVMAG_M_3300027707_43_000000000013_6:0.0723491486)100/100:0.1032098435,(Schultz_GVMAG_S_3300010368_72_000000000027_5:0.1781928815,(Schultz_GVMAG_M_3300020187_94_000000000001_30:0.0348755090,Schultz_GVMAG_M_3300009441_23_000000000015_4:0.0672465523)99.7/99:0.1117473137)99.1/84:0.0884943324)95.8/82:0.0586706285)96/60:0.1060517696)100/82:0.3386308855);
+
+CONSENSUS TREE
+--------------
+
+Consensus tree is constructed from 1000bootstrap trees
+Log-likelihood of consensus tree: -7269.578875
+Robinson-Foulds distance between ML tree and consensus tree: 0
+
+Branches with support >0.000000% are kept (extended consensus)
+Branch lengths are optimized by maximum likelihood on original alignment
+Numbers in parentheses are bootstrap supports (%)
+
++--TARA_PSW_NCLDV_Bin_158_1_c_000000000032_11
+|
++--Yasminevirus_GU_2018_000000000001_1182
+|
+|     +--Moniruzzaman_MM15_ERX556043_42_dc_000000000003_9
+|  +--| (40)
+|  |  |           +---------------------Hokovirus_KY684103_000000000001_211
+|  |  +-----------| (82)
+|  |              +-----------------------------------------Schultz_GVMAG_M_3300010334_45_000000000018_18
++--| (82)
+   |        +--Schultz_GVMAG_M_3300025767_21_000000000012_6
+   |     +--| (86)
+   |     |  |        +--Moniruzzaman_MM01_SRX802077_122_dc_000000000014_2
+   |     |  |     +--| (83)
+   |     |  |     |  +--Schultz_GVMAG_M_3300025880_30_000000000006_2
+   |     |  |  +--| (100)
+   |     |  |  |  +--TARA_MED_NCLDV_Bin_121_14_c_000000000043_5
+   |     |  +--| (94)
+   |     |     |  +--Schultz_GVMAG_S_3300010368_67_000000000002_5
+   |     |     +--| (83)
+   |     |        |  +--Schultz_GVMAG_M_3300024261_25_000000000007_10
+   |     |        +--| (88)
+   |     |           +--Schultz_GVMAG_S_ERX556045_64_000000000021_1
+   |  +--| (52)
+   |  |  |  +--Schultz_GVMAG_M_3300020185_80_000000000001_15
+   |  |  +--| (91)
+   |  |     |  +--Schultz_GVMAG_M_3300021375_17_000000000003_61
+   |  |     +--| (87)
+   |  |        +--Schultz_GVMAG_M_3300003404_4_000000000011_3
+   +--| (60)
+      |     +--Schultz_GVMAG_M_3300023184_120_000000000001_70
+      |  +--| (100)
+      |  |  +--Schultz_GVMAG_M_3300027707_43_000000000013_6
+      +--| (82)
+         |  +--Schultz_GVMAG_S_3300010368_72_000000000027_5
+         +--| (84)
+            |  +--Schultz_GVMAG_M_3300020187_94_000000000001_30
+            +--| (99)
+               +--Schultz_GVMAG_M_3300009441_23_000000000015_4
+
+
+Consensus tree in newick format: 
+
+(TARA_PSW_NCLDV_Bin_158_1_c_000000000032_11:0.4027856850,Yasminevirus_GU_2018_000000000001_1182:0.2321558067,((Moniruzzaman_MM15_ERX556043_42_dc_000000000003_9:0.3077060439,(Hokovirus_KY684103_000000000001_211:2.2390796451,Schultz_GVMAG_M_3300010334_45_000000000018_18:4.3334407342)82:1.2613553959)40:0.1219991253,(((Schultz_GVMAG_M_3300025767_21_000000000012_6:0.1982025615,(((Moniruzzaman_MM01_SRX802077_122_dc_000000000014_2:0.0000023283,Schultz_GVMAG_M_3300025880_30_000000000006_2:0.0000023283)83:0.0033628799,TARA_MED_NCLDV_Bin_121_14_c_000000000043_5:0.0020081434)100:0.0449028672,(Schultz_GVMAG_S_3300010368_67_000000000002_5:0.0438391388,(Schultz_GVMAG_M_3300024261_25_000000000007_10:0.0084742262,Schultz_GVMAG_S_ERX556045_64_000000000021_1:0.0237879298)88:0.0186935335)83:0.0225804853)94:0.1011527659)86:0.1110123917,(Schultz_GVMAG_M_3300020185_80_000000000001_15:0.1893321773,(Schultz_GVMAG_M_3300021375_17_000000000003_61:0.2355041411,Schultz_GVMAG_M_3300003404_4_000000000011_3:0.1332809466)87:0.0604704498)91:0.0474835151)52:0.0208248062,((Schultz_GVMAG_M_3300023184_120_000000000001_70:0.0618885705,Schultz_GVMAG_M_3300027707_43_000000000013_6:0.0724776881)100:0.1033468550,(Schultz_GVMAG_S_3300010368_72_000000000027_5:0.1784548021,(Schultz_GVMAG_M_3300020187_94_000000000001_30:0.0349072115,Schultz_GVMAG_M_3300009441_23_000000000015_4:0.0673460907)99:0.1119018251)84:0.0886129179)82:0.0587522700)60:0.1060199458)82:0.3390337587);
+
+TIME STAMP
+----------
+
+Date and time: Sat Nov  8 17:57:56 2025
+Total CPU time used: 133.996342 seconds (0h:2m:13s)
+Total wall-clock time used: 43.33210206 seconds (0h:0m:43s)
+

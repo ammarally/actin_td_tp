@@ -1,0 +1,14 @@
+#                                                                                      --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name                                  accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ----------                        -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+actin_like           -          Schultz_GVMAG_M_3300003404_4_000000000011_3 -           9.4e-169  547.1   0.0    1e-168  547.0   0.0   1.0   1   0   0   1   1   1   1 -
+#
+# Program:         hmmscan
+# Version:         3.4 (Aug 2023)
+# Pipeline mode:   SCAN
+# Query file:      results/aa/Schultz_GVMAG_M_3300003404_4.norm.fa
+# Target file:     hmms/PersoHMM/genes.hmm
+# Option settings: hmmscan --tblout results/hmmer/Schultz_GVMAG_M_3300003404_4.tbl -E 1e-12 --cpu 1 hmms/PersoHMM/genes.hmm results/aa/Schultz_GVMAG_M_3300003404_4.norm.fa 
+# Current dir:     /Users/aliammar/actin_td_tp
+# Date:            Sat Nov  8 20:47:40 2025
+# [ok]

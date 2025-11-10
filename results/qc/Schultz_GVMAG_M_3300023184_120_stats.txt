@@ -1,0 +1,31 @@
+contigs_db	Schultz_GVMAG_M_3300023184_120_contigs
+Total Length	398381
+Num Contigs	8
+Num Contigs > 100 kb	1
+Num Contigs > 50 kb	3
+Num Contigs > 20 kb	6
+Num Contigs > 10 kb	8
+Num Contigs > 5 kb	8
+Num Contigs > 2.5 kb	8
+Longest Contig	112159
+Shortest Contig	10428
+Num Genes (prodigal)	388
+L50	3
+L75	4
+L90	6
+N50	61107
+N75	49766
+N90	25140
+Archaea_76	3
+Bacteria_71	2
+PersoHMM	1
+Protista_83	1
+Ribosomal_RNA_12S	0
+Ribosomal_RNA_16S	0
+Ribosomal_RNA_18S	0
+Ribosomal_RNA_23S	0
+Ribosomal_RNA_28S	0
+Ribosomal_RNA_5S	0
+bacteria (Bacteria_71)	0
+archaea (Archaea_76)	0
+eukarya (Protista_83)	0

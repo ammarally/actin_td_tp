@@ -1,0 +1,8 @@
+                                                                                                                      [48;5;6m[38;5;0m[08 Nov 25 18:43:15 Reading the accession to taxonomy file] ...                                                      [0m                                                                                                                      usage: anvi-run-scg-taxonomy [-h] -c CONTIGS_DB
+                             [--scgs-taxonomy-data-dir PATH]
+                             [--min-percent-identity PERCENT_IDENTITY]
+                             [--max-num-target-sequences NUMBER]
+                             [-P NUM_PROCESSES] [-T NUM_THREADS]
+                             [--write-buffer-size INT]
+                             [--all-hits-output-file FILE_PATH]
+anvi-run-scg-taxonomy: error: the following arguments are required: -c/--contigs-db
