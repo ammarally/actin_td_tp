@@ -38,7 +38,7 @@ and reconstruct their phylogenetic relationships.
 The final tree (`actin_plus_refs.trimal.phy.contree`) was visualized with **ete3** / **FigTree**.
 
 <p align="center">
-  <img src="results/actin_plus_refs_tree_support.png" width="600">
+  <img src="actin_plus_refs_tree_support.png" width="600">
 </p>
 
 ---
